@@ -1,0 +1,243 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body background setup */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Images/Photoshop-679631.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Hide the <img> tag image since background is handled in CSS */
+body img {
+  display: none;
+}
+
+/* Sign-in form container */
+.Form1 {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title and subtitle */
+.Form1 h1 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.Form1 h2 {
+  font-size: 20px;
+  color: #34495e;
+  margin-bottom: 25px;
+}
+
+/* Form input labels and icons */
+.form2 p {
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form2 i {
+  margin-left: 5px;
+}
+
+/* Input fields */
+.form2 input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Checkbox and links */
+.inside {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.inside input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.inside .p {
+  display: inline;
+  color: #555;
+}
+
+.forget {
+  color: #3498db;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.create {
+  color: #2c3e50;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.create:hover {
+  text-decoration: underline;
+}
+
+/* Submit button */
+button[type="Submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="Submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* Home link */
+.home2 {
+  margin-top: 20px;
+}
+
+.home2 a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.home2 a:hover {
+  text-decoration: underline;
+}
+
+/* Background image hidden via <img> tag if you're using CSS background */
+.background-image {
+  display: none;
+}
+
+/* Sign-up form container */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Headings */
+.form-container h1 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.form-container h2 {
+  font-size: 20px;
+  color: #34495e;
+  margin-bottom: 25px;
+}
+
+/* Input labels and fields */
+form label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="email"],
+form input[type="tel"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Gender radio buttons */
+form input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+/* Phone input with country code */
+.phone-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.phone-input select {
+  width: 30%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.phone-input input {
+  width: 70%;
+}
+
+/* Submit button */
+form button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* Home link */
+.home {
+  margin-top: 20px;
+}
+
+.home a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.home a:hover {
+  text-decoration: underline;
+}
